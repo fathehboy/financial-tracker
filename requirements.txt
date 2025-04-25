@@ -1,0 +1,24 @@
+# PostgreSQL and SQLAlchemy
+psycopg2==2.9.3
+SQLAlchemy==2.0.17
+alembic==1.11.1  # Added for migrations
+
+# Redis
+redis==4.5.5
+
+# Security
+bcrypt==4.0.0
+passlib==1.7.4  # Added explicit dependency
+python-jose==3.3.0
+cryptography==41.0.3  # Required by python-jose
+
+# FastAPI and Pydantic
+fastapi==0.100.0
+pydantic==2.0.3
+
+# Server and monitoring
+uvicorn==0.22.0
+httpx==0.24.1  # For rate limiting checks
+
+# Environment and logging
+python-dotenv==1.0.0
