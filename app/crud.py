@@ -4,7 +4,7 @@ from .redis_client import redis_client
 from .models import Transaction
 from .utils import generate_uuid
 
-INDEX_NAME = "catatan-keuangan"
+INDEX_NAME = "financial-tracker"
 
 # Create
 def create_transaction(data):
